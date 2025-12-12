@@ -101,6 +101,11 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'pet-vocabulary-practice.pages.dev', // 您的舊網站網址
+            label: '🇬🇧 英檢練習', // 按鈕上顯示的文字
+            position: 'left', // 放在左邊 (或是 right 放右邊)
+          },
         ],
       },
       footer: {
