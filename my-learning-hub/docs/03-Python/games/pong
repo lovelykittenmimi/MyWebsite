@@ -1,0 +1,12 @@
+---
+sidebar_position: 2
+title: 🏓 乒乓球 (Pong)
+---
+
+[🔙 回到遊戲大廳](../)
+
+# 🏓 乒乓球對戰
+
+這是使用 Python Turtle 模組製作的經典遊戲。
+
+<iframe src="https://trinket.io/embed/python/b67124c62511" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
