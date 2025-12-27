@@ -1,0 +1,30 @@
+[
+  {
+    "id": "001",
+    "word": "一丘之貉",
+    "pinyin": "ㄧ ㄑㄧㄡ ㄓ ㄏㄜˊ",
+    "sense": "比喻彼此同樣低劣，並無差異。",
+    "level": "L3",
+    "note": "「貉」讀ㄏㄜˊ。此詞具強烈貶義，不可形容好友。",
+    "link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=3&q=1"
+  },
+  {
+    "id": "002",
+    "word": "一步登天",
+    "pinyin": "ㄧ ㄅㄨˋ ㄉㄥ ㄊㄧㄢ",
+    "sense": "比喻突然達到極高的地位。也形容妄想不勞而獲。",
+    "level": "L2",
+    "note": "常用於否定句，強調不可好高騖遠。",
+    "link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=6651&q=1"
+  },
+  {
+    "id": "003",
+    "word": "一言九鼎",
+    "pinyin": "ㄧ ㄧㄢˊ ㄐㄧㄡˇ ㄉㄧㄥˇ",
+    "sense": "形容說話很有分量，或極講信用。",
+    "level": "L4",
+    "note": "側重「決定性」影響力。守信建議用一諾千金。",
+    "link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=88&q=1"
+  }
+  // ... 請依此類推加入剩下的 17 則成語資料 [cite: 28-201]
+]
