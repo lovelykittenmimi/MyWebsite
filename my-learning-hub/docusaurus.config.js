@@ -106,10 +106,11 @@ const config = {
             label: '🇬🇧 英檢練習', // 按鈕上顯示的文字
             position: 'left', // 放在左邊 (或是 right 放右邊)
           },
+          // 在 docusaurus.config.js 的 navbar items 中修改 
           {
-            href: 'idiom.html', //成語
-            label: '成語大師', // 按鈕上顯示的文字
-            position: 'left', // 放在左邊 (或是 right 放右邊)
+            to: '/idiom', // 修改這裡：從 'idiom.html' 改成 '/idiom'
+            label: '成語大師',
+            position: 'left',
           },
         ],
       },
