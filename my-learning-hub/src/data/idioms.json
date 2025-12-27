@@ -1,30 +1,322 @@
 [
   {
-    "id": "001",
-    "word": "一丘之貉",
-    "pinyin": "ㄧ ㄑㄧㄡ ㄓ ㄏㄜˊ",
-    "sense": "比喻彼此同樣低劣，並無差異。",
-    "level": "L3",
-    "note": "「貉」讀ㄏㄜˊ。此詞具強烈貶義，不可形容好友。",
-    "link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=3&q=1"
+    "ID": "IDIOM_001",
+    "Idiom": "一丘之貉",
+    "Zhuyin": "ㄧ ㄑㄧㄡ ㄓ ㄏㄜˊ [cite: 34]",
+    "Meaning": "生長在同一山丘上的貉。比喻彼此同樣低劣，並無差異。（貶義） [cite: 34]",
+    "Examples": [
+      "這群詐騙集團的成員根本是一丘之貉，專門欺騙無辜的老人。 [cite: 34]",
+      "原來那個貪官和奸商是一丘之貉，難怪會互相包庇。 [cite: 34]"
+    ],
+    "Synonyms": ["同流合汙", "狼狽為奸", "沆瀣一氣 [cite: 34]"],
+    "Antonyms": ["涇渭分明", "黑白分明", "出淤泥而不染 [cite: 34]"],
+    "Difficulty": "Level 3 (國中) [cite: 34]",
+    "Source": "《漢書．卷六六．楊惲傳》 [cite: 34]",
+    "Note": "【讀音】「貉」不可讀作ㄌㄨㄛˋ。 【語用】僅用於負面人物。學生常誤以為可以用來形容好朋友志同道合，這是嚴重的語用錯誤。 [cite: 32, 34]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=3&q=1"
   },
   {
-    "id": "002",
-    "word": "一步登天",
-    "pinyin": "ㄧ ㄅㄨˋ ㄉㄥ ㄊㄧㄢ",
-    "sense": "比喻突然達到極高的地位。也形容妄想不勞而獲。",
-    "level": "L2",
-    "note": "常用於否定句，強調不可好高騖遠。",
-    "link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=6651&q=1"
+    "ID": "IDIOM_002",
+    "Idiom": "一步登天",
+    "Zhuyin": "ㄧ ㄅㄨˋ ㄉㄥ ㄊㄧㄢ [cite: 43]",
+    "Meaning": "比喻突然達到極高的地位或境界。亦用來形容人妄想不經過努力就獲得成功。 [cite: 43]",
+    "Examples": [
+      "學習任何語言都需要日積月累，不可能一步登天。 [cite: 43]",
+      "他整天夢想著中樂透一步登天，卻不肯腳踏實地工作。 [cite: 43]"
+    ],
+    "Synonyms": ["平步青雲", "飛黃騰達", "一鳴驚人 [cite: 43]"],
+    "Antonyms": ["按部就班", "循序漸進", "一落千丈 [cite: 43]"],
+    "Difficulty": "Level 2 (國小高年級) [cite: 43]",
+    "Source": "清．徐珂《清稗類鈔．三十四》 [cite: 43]",
+    "Note": "【語用】多用於否定句，勸勉學生腳踏實地。帶有譏諷妄想、不切實際的意味。 [cite: 41, 43]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=6651&q=1"
   },
   {
-    "id": "003",
-    "word": "一言九鼎",
-    "pinyin": "ㄧ ㄧㄢˊ ㄐㄧㄡˇ ㄉㄧㄥˇ",
-    "sense": "形容說話很有分量，或極講信用。",
-    "level": "L4",
-    "note": "側重「決定性」影響力。守信建議用一諾千金。",
-    "link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=88&q=1"
+    "ID": "IDIOM_003",
+    "Idiom": "一言九鼎",
+    "Zhuyin": "ㄧ ㄧㄢˊ ㄐㄧㄡˇ ㄉㄧㄥˇ [cite: 52]",
+    "Meaning": "形容說話很有分量，能起決定性作用；也形容極講信用。 [cite: 52]",
+    "Examples": [
+      "李總經理在業界一言九鼎，答應的事情絕對不會反悔。 [cite: 52]",
+      "作為領袖必須一言九鼎，才能獲得部屬的信賴。 [cite: 52]"
+    ],
+    "Synonyms": ["一諾千金", "言出如山", "金口玉言 [cite: 52]"],
+    "Antonyms": ["人微言輕", "食言而肥", "信口開河 [cite: 52]"],
+    "Difficulty": "Level 4 (國中) [cite: 52]",
+    "Source": "《史記．卷七六．平原君虞卿列傳》 [cite: 52]",
+    "Note": "【字形】「鼎」字筆畫繁複，易寫錯。 【辨析】側重於「分量重」，而「一諾千金」側重於「守信用」。 [cite: 52]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=88&q=1"
+  },
+  {
+    "ID": "IDIOM_004",
+    "Idiom": "一波三折",
+    "Zhuyin": "ㄧ ㄅㄛ ㄙㄢ ㄓㄜˊ [cite: 61]",
+    "Meaning": "原指書法筆勢曲折多姿。現比喻事情進行曲折多變，很不順利；或形容文章結構起伏多變。 [cite: 61]",
+    "Examples": [
+      "這項工程真是一波三折，歷經多次停工才終於完成。 [cite: 61]",
+      "這部懸疑電影的劇情一波三折，結局完全出乎觀眾意料。 [cite: 61]"
+    ],
+    "Synonyms": ["好事多磨", "跌宕起伏", "峰迴路轉 [cite: 61]"],
+    "Antonyms": ["一帆風順", "勢如破竹", "直截了當 [cite: 61]"],
+    "Difficulty": "Level 3 (國中) [cite: 61]",
+    "Source": "晉．王羲之《題衛夫人筆陣圖後》 [cite: 61]",
+    "Note": "【語用】在辦事上是負面義（阻礙多），但在欣賞作品（如小說電影）時是正面褒義（情節豐富）。 [cite: 59, 61]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=549&q=1"
+  },
+  {
+    "ID": "IDIOM_005",
+    "Idiom": "一針見血",
+    "Zhuyin": "ㄧ ㄓㄣ ㄐㄧㄢˋ ㄒㄧㄝˇ [cite: 70]",
+    "Meaning": "比喻說話直截了當，切中要害。 [cite: 70]",
+    "Examples": [
+      "老師的評論一針見血，直接指出了我作文中邏輯不通的地方。 [cite: 70]",
+      "他這番話一針見血地揭穿了對手的謊言。 [cite: 70]"
+    ],
+    "Synonyms": ["一語道破", "一語中的", "切中肯綮 [cite: 70]"],
+    "Antonyms": ["言不及義", "隔靴搔癢", "拐彎抹角 [cite: 70]"],
+    "Difficulty": "Level 2 (國小高年級) [cite: 70]",
+    "Source": "《後漢書．卷八○．郭諶傳》 [cite: 70]",
+    "Note": "【讀音】「血」字在此讀ㄒㄧㄝˇ。 【語用】源自醫療行為隱喻，雖帶血字但非恐怖義，形容評論精準。 [cite: 67, 68, 70]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=335&q=1"
+  },
+  {
+    "ID": "IDIOM_006",
+    "Idiom": "一意孤行",
+    "Zhuyin": "ㄧ ㄧˋ ㄍㄨ ㄒㄧㄥˊ [cite: 79]",
+    "Meaning": "不聽勸告，固執地照自己的意思去做。（貶義） [cite: 79]",
+    "Examples": [
+      "如果他繼續一意孤行，不聽專家的市場分析，公司遲早會倒閉。 [cite: 79]",
+      "在團隊合作中，一意孤行的態度是最大的忌諱。 [cite: 79]"
+    ],
+    "Synonyms": ["固執己見", "剛愎自用", "獨斷專行 [cite: 79]"],
+    "Antonyms": ["博採眾議", "從善如流", "虛懷若谷 [cite: 79]"],
+    "Difficulty": "Level 4 (國中) [cite: 79]",
+    "Source": "《史記．卷一二二．酷吏列傳．趙禹》 [cite: 79]",
+    "Note": "【辨析】現代多用於貶義。嚴禁與褒義的「特立獨行」（指品德高尚不流俗）混用。 [cite: 76, 77, 79]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=252&q=1"
+  },
+  {
+    "ID": "IDIOM_007",
+    "Idiom": "一鼓作氣",
+    "Zhuyin": "ㄧ ㄍㄨˇ ㄗㄨㄛˋ ㄑㄧˋ [cite: 88]",
+    "Meaning": "比喻趁勁頭正大的時候，一下子把事情完成。 [cite: 88]",
+    "Examples": [
+      "既然大家士氣高昂，我們不如一鼓作氣，把剩下的工作今天全部做完。 [cite: 88]",
+      "登山隊決定一鼓作氣，在天黑之前攻頂這座高山。 [cite: 88]"
+    ],
+    "Synonyms": ["打鐵趁熱", "速戰速決 [cite: 88]"],
+    "Antonyms": ["一暴十寒", "拖泥帶水", "再衰三竭 [cite: 88]"],
+    "Difficulty": "Level 3 (國中) [cite: 88]",
+    "Source": "《左傳．莊公十年》 [cite: 88]",
+    "Note": "【語用】軍事心理學案例，重點在於維持「連續性」與「氣勢」，強調趁熱打鐵。 [cite: 85, 86, 88]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=48&q=1"
+  },
+  {
+    "ID": "IDIOM_008",
+    "Idiom": "一語道破",
+    "Zhuyin": "ㄧ ㄩˇ ㄉㄠˋ ㄆㄛˋ [cite: 97]",
+    "Meaning": "一句話就把事理的真相說穿。 [cite: 97]",
+    "Examples": [
+      "小明一語道破了魔術師的機關，讓大家恍然大悟。 [cite: 97]",
+      "這篇文章的標題一語道破了現今社會冷漠的病因。 [cite: 97]"
+    ],
+    "Synonyms": ["一針見血", "一語中的 [cite: 97]"],
+    "Antonyms": ["言不及義", "不知所云", "撲朔迷離 [cite: 97]"],
+    "Difficulty": "Level 3 (國中) [cite: 97]",
+    "Source": "清．戲曲《奈何天．計左》 [cite: 97]",
+    "Note": "【辨析】側重於「揭露謎底或秘密」。揭穿魔術用此詞較合適；批評文章缺點則用「一針見血」較佳。 [cite: 95, 97]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1063&q=1"
+  },
+  {
+    "ID": "IDIOM_009",
+    "Idiom": "一鳴驚人",
+    "Zhuyin": "ㄧ ㄇㄧㄥˊ ㄐㄧㄥ ㄖㄣˊ [cite: 106]",
+    "Meaning": "比喻平時沒沒無聞，突然有驚人的表現。 [cite: 106]",
+    "Examples": [
+      "他在決賽中一鳴驚人，以黑馬之姿打敗了所有種子選手奪得冠軍。 [cite: 106]",
+      "不要小看平時安靜的他，說不定哪天會一鳴驚人。 [cite: 106]"
+    ],
+    "Synonyms": ["一飛沖天", "脫穎而出", "石破天驚 [cite: 106]"],
+    "Antonyms": ["沒沒無聞", "屢戰屢敗", "虛張聲勢 [cite: 106]"],
+    "Difficulty": "Level 2 (國小高年級) [cite: 106]",
+    "Source": "《韓非子．喻老》 [cite: 106]",
+    "Note": "【語用】必須包含「平時默默無聞」的前提，若平時就很優秀則不適用。鼓勵學生厚積薄發。 [cite: 104, 106]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=59&q=1"
+  },
+  {
+    "ID": "IDIOM_010",
+    "Idiom": "一諾千金",
+    "Zhuyin": "ㄧ ㄋㄨㄛˋ ㄑㄧㄢ ㄐㄧㄣ [cite: 115]",
+    "Meaning": "形容信守承諾，說話算數。 [cite: 115]",
+    "Examples": [
+      "他是個一諾千金的君子，答應你的事一定會辦到。 [cite: 115]",
+      "商場上講究誠信，一諾千金才能贏得客戶的長久信任。 [cite: 115]"
+    ],
+    "Synonyms": ["言而有信", "一言九鼎", "季布一諾 [cite: 115]"],
+    "Antonyms": ["言而無信", "出爾反爾", "空頭支票 [cite: 115]"],
+    "Difficulty": "Level 3 (國中) [cite: 115]",
+    "Source": "《史記．季布欒布列傳》 [cite: 115]",
+    "Note": "【語用】代表傳統文化中「信」的最高價值。注意區別「一擲千金」（花錢）。 [cite: 113, 115]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=69&q=1"
+  },
+  {
+    "ID": "IDIOM_011",
+    "Idiom": "一擲千金",
+    "Zhuyin": "ㄧ ㄓˊ ㄑㄧㄢ ㄐㄧㄣ [cite: 124]",
+    "Meaning": "形容不惜金錢的豪舉，花錢如流水。 [cite: 124]",
+    "Examples": [
+      "這位富豪一擲千金，買下了整個海島作為私人度假地。 [cite: 124]",
+      "養成儲蓄的習慣，不要染上這般一擲千金的惡習。 [cite: 124]"
+    ],
+    "Synonyms": ["揮金如土", "揮霍無度", "窮奢極侈 [cite: 124]"],
+    "Antonyms": ["節衣縮食", "克勤克儉", "量入為出 [cite: 124]"],
+    "Difficulty": "Level 3 (國中) [cite: 124]",
+    "Source": "唐．吳象之〈少年行〉 [cite: 124]",
+    "Note": "【讀音】「擲」讀音為ㄓˊ，易誤讀。 【語用】形容人生活極度奢侈浪費，理財教育中的負面教材。 [cite: 121, 124]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1069&q=1"
+  },
+  {
+    "ID": "IDIOM_012",
+    "Idiom": "一蹶不振",
+    "Zhuyin": "ㄧ ㄐㄩㄝˊ ㄅㄨˋ ㄓㄣˋ [cite: 133]",
+    "Meaning": "比喻一遭受挫折，就再也振作不起來。 [cite: 133]",
+    "Examples": [
+      "失敗是成功之母，千萬不要因為一次考試失利就一蹶不振。 [cite: 133]",
+      "曾經的冠軍隊伍在輸掉關鍵比賽後，竟然士氣崩潰，一蹶不振。 [cite: 133]"
+    ],
+    "Synonyms": ["灰心喪氣", "垂頭喪氣", "萎靡不振 [cite: 133]"],
+    "Antonyms": ["百折不撓", "捲土重來", "再接再厲 [cite: 133]"],
+    "Difficulty": "Level 4 (國中) [cite: 133]",
+    "Source": "漢．劉向《說苑．談叢》 [cite: 133]",
+    "Note": "【讀音】「蹶」讀音ㄐㄩㄝˊ，意為跌倒，易誤寫為「決」。描述「挫折忍受力」極低的心理狀態。 [cite: 130, 131, 133]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=838&q=1"
+  },
+  {
+    "ID": "IDIOM_013",
+    "Idiom": "一籌莫展",
+    "Zhuyin": "ㄧ ㄔㄡˊ ㄇㄛˋ ㄓㄢˇ [cite: 142]",
+    "Meaning": "一點計策也施展不出來。比喻毫無辦法。 [cite: 142]",
+    "Examples": [
+      "面對這突如其來的棘手病毒，所有的醫學專家初期都感到一籌莫展。 [cite: 142]",
+      "車子在荒郊野外拋錨，手機又沒訊號，真是令人一籌莫展。 [cite: 142]"
+    ],
+    "Synonyms": ["束手無策", "計無所出", "坐困愁城 [cite: 142]"],
+    "Antonyms": ["計上心來", "神機妙算", "胸有成竹 [cite: 142]"],
+    "Difficulty": "Level 4 (國中) [cite: 142]",
+    "Source": "《宋史．蔡幼學傳》 [cite: 142]",
+    "Note": "【形音】「籌」是竹部，指古代算籌。形容「沒辦法」，不是「沒錢」。 [cite: 139, 142]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=153&q=1"
+  },
+  {
+    "ID": "IDIOM_014",
+    "Idiom": "九牛一毛",
+    "Zhuyin": "ㄐㄧㄡˇ ㄋㄧㄡˊ ㄧ ㄇㄠˊ [cite: 151]",
+    "Meaning": "比喻極大數量中的一小部分。多指微不足道。 [cite: 151]",
+    "Examples": [
+      "這點損失對這家跨國大公司來說，不過是九牛一毛。 [cite: 151]",
+      "我們個人的力量雖然如九牛一毛，但團結起來就能移山填海。 [cite: 151]"
+    ],
+    "Synonyms": ["滄海一粟", "太倉稊米", "微不足道 [cite: 151]"],
+    "Antonyms": ["舉足輕重", "盈千累萬", "不計其數 [cite: 151]"],
+    "Difficulty": "Level 3 (國中) [cite: 151]",
+    "Source": "漢．司馬遷《報任少卿書》 [cite: 151]",
+    "Note": "【語用】「九」在此表多數虛指。原意是司馬遷自謙與悲憤，現代多形容數量落差大。 [cite: 148, 149, 151]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=343&q=1"
+  },
+  {
+    "ID": "IDIOM_015",
+    "Idiom": "九死一生",
+    "Zhuyin": "ㄐㄧㄡˇ ㄙˇ ㄧ ㄕㄥ [cite: 160]",
+    "Meaning": "形容歷經極大的危險而倖存。亦形容處境極為艱險。 [cite: 160]",
+    "Examples": [
+      "他在那場可怕的空難中九死一生，奇蹟似地活了下來。 [cite: 160]",
+      "探險隊穿越這片充滿猛獸的原始森林，經歷了九死一生的考驗。 [cite: 160]"
+    ],
+    "Synonyms": ["千鈞一髮", "死裡逃生", "虎口餘生 [cite: 160]"],
+    "Antonyms": ["安如泰山", "平安無事", "安然無恙 [cite: 160]"],
+    "Difficulty": "Level 3 (國中) [cite: 160]",
+    "Source": "戰國楚．屈原〈離騷〉 [cite: 160]",
+    "Note": "【語用】強調「倖存」的結果。常與災難新聞連結。 [cite: 158, 160]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=446&q=1"
+  },
+  {
+    "ID": "IDIOM_016",
+    "Idiom": "一視同仁",
+    "Zhuyin": "ㄧ ㄕˋ ㄊㄨㄥˊ ㄖㄣˊ [cite: 169]",
+    "Meaning": "平等待人，不分親疏厚薄。 [cite: 169]",
+    "Examples": [
+      "這位法官執法公正，對任何被告都一視同仁，絕不偏袒。 [cite: 169]",
+      "老師對待學生應該一視同仁，不因成績好壞而有差別待遇。 [cite: 169]"
+    ],
+    "Synonyms": ["大公無私", "公正無私", "等量齊觀 [cite: 169]"],
+    "Antonyms": ["厚此薄彼", "因人而異", "循私舞弊 [cite: 169]"],
+    "Difficulty": "Level 2 (國小高年級) [cite: 169]",
+    "Source": "唐．韓愈〈原人〉 [cite: 169]",
+    "Note": "【形音】「仁」指仁愛，不可寫成「人」。體現儒家博愛思想，是現代人權教育核心。 [cite: 166, 167, 169]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=134&q=1"
+  },
+  {
+    "ID": "IDIOM_017",
+    "Idiom": "一無可取",
+    "Zhuyin": "ㄧ ㄨˊ ㄎㄜˇ ㄑㄩˇ [cite: 177]",
+    "Meaning": "沒有一點可取之處。形容人或事物非常糟糕。 [cite: 177]",
+    "Examples": [
+      "這份粗製濫造的計畫書內容空洞，簡直一無可取。 [cite: 177]",
+      "不要因為一次錯誤就覺得自己一無可取，每個人都有優點。 [cite: 177]"
+    ],
+    "Synonyms": ["一無是處", "百無一用 [cite: 177]"],
+    "Antonyms": ["完美無缺", "十全十美", "盡善盡美 [cite: 177]"],
+    "Difficulty": "Level 3 (國中) [cite: 177]",
+    "Source": "明．馮夢龍《醒世恆言》 [cite: 177]",
+    "Note": "【語用】極度負面的全面否定詞。建議用於形容「計畫」或「作品」，避免形容人。 [cite: 175, 177]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=11149&q=1"
+  },
+  {
+    "ID": "IDIOM_018",
+    "Idiom": "一絲不苟",
+    "Zhuyin": "ㄧ ㄙ ㄅㄨˋ ㄍㄡˇ [cite: 185]",
+    "Meaning": "形容做事認真，一點也不馬虎。 [cite: 185]",
+    "Examples": [
+      "他對工作一絲不苟的態度，贏得了老闆的高度賞識。 [cite: 185]",
+      "科學實驗數據必須精確，任何步驟都要一絲不苟，不能有半點誤差。 [cite: 185]"
+    ],
+    "Synonyms": ["小心翼翼", "兢兢業業", "精益求精 [cite: 185]"],
+    "Antonyms": ["粗枝大葉", "馬馬虎虎", "敷衍了事 [cite: 185]"],
+    "Difficulty": "Level 3 (國中) [cite: 185]",
+    "Source": "《儒林外史》 [cite: 185]",
+    "Note": "【形音】「苟」不可寫成「茍」（敬慎）或「荀」（姓氏）。職人精神的最佳寫照。 [cite: 183, 185]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=5390&q=1"
+  },
+  {
+    "ID": "IDIOM_019",
+    "Idiom": "一望無垠",
+    "Zhuyin": "ㄧ ㄨㄤˋ ㄨˊ ㄧㄣˊ [cite: 193]",
+    "Meaning": "一眼望去看不見邊際。形容寬廣、遼闊。 [cite: 193]",
+    "Examples": [
+      "站在蒙古大草原上，看著一望無垠的綠色大地，心情頓時開朗。 [cite: 193]",
+      "船駛入了一望無垠的太平洋，四周只有藍天白雲與海水。 [cite: 193]"
+    ],
+    "Synonyms": ["一望無際", "無邊無際", "海闊天空 [cite: 193]"],
+    "Antonyms": ["一衣帶水", "咫尺之間", "彈丸之地 [cite: 193]"],
+    "Difficulty": "Level 3 (國中) [cite: 193]",
+    "Source": "現代通用成語 [cite: 193]",
+    "Note": "【讀音】「垠」讀音ㄧㄣˊ，意為邊際、岸邊，易誤讀。形容地理景觀的壯闊。 [cite: 191, 193]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=7710&q=1"
+  },
+  {
+    "ID": "IDIOM_020",
+    "Idiom": "一貧如洗",
+    "Zhuyin": "ㄧ ㄆㄧㄣˊ ㄖㄨˊ ㄒㄧˇ [cite: 201]",
+    "Meaning": "形容非常貧窮，一無所有。 [cite: 201]",
+    "Examples": [
+      "他雖然家境一貧如洗，但仍然努力讀書，希望靠知識改變命運。 [cite: 201]",
+      "這場無情的大火燒光了他所有的家當，讓他瞬間變得一貧如洗。 [cite: 201]"
+    ],
+    "Synonyms": ["家徒四壁", "身無分文", "兩袖清風 [cite: 201]"],
+    "Antonyms": ["富可敵國", "腰纏萬貫", "金玉滿堂 [cite: 201]"],
+    "Difficulty": "Level 2 (國小高年級) [cite: 201]",
+    "Source": "元．關漢卿《竇娥冤》 [cite: 201]",
+    "Note": "【語用】「洗」字形象化了「空」的概念。窮得像被水洗過一樣乾淨。 [cite: 199, 201]",
+    "MOE_Link": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=580&q=1"
   }
-  // ... 請依此類推加入剩下的 17 則成語資料 [cite: 28-201]
 ]
