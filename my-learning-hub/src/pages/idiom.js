@@ -10,19 +10,19 @@ export default function IdiomMaster() {
         <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: '50px' }}>
             <h1 style={{ color: 'var(--ghibli-primary)', fontSize: '3rem' }}>成語大師</h1>
-            <p>透過筆觸，探索指尖上的文化故事。</p>
+            <p>透過吉卜力的筆觸，探索指尖上的文化故事。</p>
           </div>
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '30px' }}>
             {idiomData.map((item) => (
               <div key={item.id} className="idiom-card-container">
                 <div className="idiom-card-inner">
-                  {/* 正面：Option B 視覺化模式 */}
+                  {/* 正面：Option B 視覺化模式 [cite: 12] */}
                   <div className="idiom-card-front">
                     <h2 style={{ fontSize: '3rem', letterSpacing: '8px' }}>{item.word}</h2>
                     <p style={{ fontSize: '1.2rem', opacity: 0.7 }}>{item.pinyin}</p>
                   </div>
-                  {/* 反面：教學內容*/}
+                  {/* 反面：教學內容 [cite: 18] */}
                   <div className="idiom-card-back">
                     <span style={{ backgroundColor: 'var(--ghibli-accent)', padding: '2px 10px', borderRadius: '10px', fontSize: '0.8rem' }}>{item.level}</span>
                     <h3 style={{ marginTop: '15px' }}>釋義</h3>
