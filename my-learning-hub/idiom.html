@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>成語大師 - 吉卜力學習空間</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 吉卜力配色系統 */
+        :root {
+            --ghibli-canvas: #F0F5F9; /* 雲朵白 */
+            --ghibli-card: #FFF5F1;   /* 米紙色 */
+            --ghibli-primary: #176A90; /* 深海藍 */
+            --ghibli-accent: #E9EEDA;  /* 草綠色 */
+            --ghibli-success: #9AA37D; /* 抹茶綠 */
+        }
+        body { background-color: var(--ghibli-canvas); font-family: "PingFang TC", sans-serif; }
+        .perspective-1000 { perspective: 1000px; }
+        .preserve-3d { transform-style: preserve-3d; transition: transform 0.6s; }
+        .backface-hidden { backface-visibility: hidden; }
+        .flipped { transform: rotateY(180deg); }
+    </style>
+</head>
+<body class="p-6 md:p-12">
+    <header class="max-w-6xl mx-auto text-center mb-16">
+        <h1 class="text-[var(--ghibli-primary)] text-5xl font-bold mb-4">成語大師</h1>
+        <p class="text-gray-600 text-lg italic">「成語不再是枯燥的背誦，而是躍然紙上的鮮活故事。」</p>
+        <nav class="mt-6">
+            <a href="index.html" class="text-[var(--ghibli-primary)] hover:underline">← 返回學習中心</a>
+        </nav>
+    </header>
+
+    <main id="idiom-grid" class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        </main>
+
+    <script>
+        // 匯入白皮書中的 20 則標準化成語
+        const idiomData = [
+            { id: "001", word: "一丘之貉", pinyin: "ㄧ ㄑㄧㄡ ㄓ ㄏㄜˊ", sense: "比喻彼此同樣低劣，並無差異。", level: "L3", note: "「貉」讀ㄏㄜˊ，非ㄌㄨㄛˋ。僅用於負面。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=3&q=1" },
+            { id: "002", word: "一步登天", pinyin: "ㄧ ㄅㄨˋ ㄉㄥ ㄊㄧㄢ", sense: "比喻突然達到極高的地位或境界。常用於勸誡。", level: "L2", note: "常用於否定句，形容人妄想不勞而獲。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=6651&q=1" },
+            { id: "003", word: "一言九鼎", pinyin: "ㄧ ㄧㄢˊ ㄐㄧㄡˇ ㄉㄧㄥˇ", sense: "形容說話很有分量，或極講信用。", level: "L4", note: "「鼎」字易寫錯。側重說話的分量。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=88&q=1" },
+            { id: "004", word: "一波三折", pinyin: "ㄧ ㄅㄛ ㄙㄢ ㄓㄜˊ", sense: "比喻事情進行很不順利，或文章起伏多變。", level: "L3", note: "用於文章情節時是褒義（精彩）。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=549&q=1" },
+            { id: "005", word: "一針見血", pinyin: "ㄧ ㄓㄣ ㄐㄧㄢˋ ㄒㄧㄝˇ", sense: "比喻說話直截了當，切中要害。", level: "L2", note: "「血」讀ㄒㄧㄝˇ。形容評論精準。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=335&q=1" },
+            { id: "006", word: "一意孤行", pinyin: "ㄧ ㄧˋ ㄍㄨ ㄒㄧㄥˊ", sense: "不聽勸告，固執地照自己的意思去做。", level: "L4", note: "貶義，不可與「特立獨行」混用。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=252&q=1" },
+            { id: "007", word: "一鼓作氣", pinyin: "ㄧ ㄍㄨˇ ㄗㄨㄛˋ ㄑㄧˋ", sense: "比喻趁勁頭正大的時候，一下子把事情完成。", level: "L3", note: "重點在於連續性與氣勢。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=48&q=1" },
+            { id: "008", word: "一語道破", pinyin: "ㄧ ㄩˇ ㄉㄠˋ ㄆㄛˋ", sense: "一句話就把事理的真相說穿。", level: "L3", note: "常用於解謎、偵探破案情境。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1063&q=1" },
+            { id: "009", word: "一鳴驚人", pinyin: "ㄧ ㄇㄧㄥˊ ㄐㄧㄥ ㄖㄣˊ", sense: "比喻平時沒沒無聞，突然有驚人的表現。", level: "L2", note: "必須包含「平時默默無聞」的前提。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=59&q=1" },
+            { id: "010", word: "一諾千金", pinyin: "ㄧ ㄋㄨㄛˋ ㄑㄧㄢ ㄐㄧㄣ", sense: "形容信守承諾，說話算數。", level: "L3", note: "區別「一擲千金」（花錢）。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=69&q=1" },
+            { id: "011", word: "一擲千金", pinyin: "ㄧ ㄓˊ ㄑㄧㄢ ㄐㄧㄣ", sense: "形容不惜金錢的豪舉，花錢如流水。", level: "L3", note: "「擲」讀ㄓˊ，常見誤讀為「鄭」。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1069&q=1" },
+            { id: "012", word: "一蹶不振", pinyin: "ㄧ ㄐㄩㄝˊ ㄅㄨˋ ㄓㄣˋ", sense: "比喻一遭受挫折，就再也振作不起來。", level: "L4", note: "「蹶」讀ㄐㄩㄝˊ，意為跌倒。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=838&q=1" },
+            { id: "013", word: "一籌莫展", pinyin: "ㄧ ㄔㄡˊ ㄇㄛˋ ㄓㄢˇ", sense: "一點計策也施展不出來。比喻毫無辦法。", level: "L4", note: "「籌」是計數工具，非「愁」。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=153&q=1" },
+            { id: "014", word: "九牛一毛", pinyin: "ㄐㄧㄡˇ ㄋㄧㄡˊ ㄧ ㄇㄠˊ", sense: "比喻極大數量中的一小部分。微不足道。", level: "L3", note: "源自司馬遷，用來感嘆生命輕微。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=343&q=1" },
+            { id: "015", word: "九死一生", pinyin: "ㄐㄧㄡˇ ㄙˇ ㄧ ㄕㄥ", sense: "形容歷經極大的危險而倖存。", level: "L3", note: "源自屈原《離騷》，表達堅持理想。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=446&q=1" },
+            { id: "016", word: "一視同仁", pinyin: "ㄧ ㄕˋ ㄊㄨㄥˊ ㄖㄣˊ", sense: "平等待人，不分親疏厚薄。", level: "L2", note: "「仁」指仁愛，不可寫成「人」。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=134&q=1" },
+            { id: "017", word: "一無可取", pinyin: "ㄧ ㄨˊ ㄎㄜˇ ㄑㄩˇ", sense: "沒有一點可取之處。形容非常糟糕。", level: "L3", note: "極度負面，教育現場建議形容作品。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=11149&q=1" },
+            { id: "018", word: "一絲不苟", pinyin: "ㄧ ㄙ ㄅㄨˋ ㄍㄡˇ", sense: "形容做事認真，一點也不馬虎。", level: "L3", note: "「苟」指隨便，不可寫成「荀」。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=5390&q=1" },
+            { id: "019", word: "一望無垠", pinyin: "ㄧ ㄨㄤˋ ㄨˊ ㄧㄣˊ", sense: "一眼望去看不到邊際。形容寬廣、遼闊。", level: "L3", note: "「垠」讀ㄧㄣˊ，意為邊際。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=7710&q=1" },
+            { id: "020", word: "一貧如洗", pinyin: "ㄧ ㄆㄧㄣˊ ㄖㄨˊ ㄒㄧˇ", sense: "形容非常貧窮，一無所有。", level: "L2", note: "源自《竇娥冤》，形象化「空」的概念。", link: "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=580&q=1" }
+        ];
+
+        const grid = document.getElementById('idiom-grid');
+        idiomData.forEach(item => {
+            const card = document.createElement('div');
+            card.className = 'perspective-1000 h-96 group';
+            card.innerHTML = `
+                <div class="preserve-3d relative w-full h-full shadow-2xl rounded-3xl cursor-pointer transition-transform duration-500" onclick="this.classList.toggle('flipped')">
+                    <div class="absolute inset-0 backface-hidden bg-white rounded-3xl overflow-hidden border-8 border-white flex flex-col items-center justify-center">
+                        <div class="absolute inset-0 bg-[var(--ghibli-primary)] opacity-10"></div>
+                        <h2 class="text-6xl font-bold text-[var(--ghibli-primary)] tracking-widest z-10">${item.word}</h2>
+                        <p class="mt-6 text-gray-500 text-xl font-medium z-10">${item.pinyin}</p>
+                        <div class="absolute bottom-6 text-xs text-gray-400">點擊查看釋義</div>
+                    </div>
+                    <div class="absolute inset-0 backface-hidden rotate-y-180 bg-[var(--ghibli-card)] rounded-3xl p-8 flex flex-col border-4 border-[var(--ghibli-primary)]/10">
+                        <div class="flex justify-between items-start mb-6">
+                            <span class="px-3 py-1 bg-[var(--ghibli-accent)] text-[var(--ghibli-primary)] text-sm font-bold rounded-full">${item.level}</span>
+                            <a href="${item.link}" target="_blank" class="text-xs text-blue-400 hover:underline">教育部成語典 ↗</a>
+                        </div>
+                        <h3 class="text-xl font-bold text-[var(--ghibli-primary)] mb-2">【解釋】</h3>
+                        <p class="text-gray-700 leading-relaxed mb-6">${item.sense}</p>
+                        <h3 class="text-xl font-bold text-[var(--ghibli-primary)] mb-2">【提醒】</h3>
+                        <p class="text-gray-600 text-sm italic border-l-4 border-[var(--ghibli-success)] pl-3">${item.note}</p>
+                    </div>
+                </div>
+            `;
+            grid.appendChild(card);
+        });
+    </script>
+</body>
+</html>
