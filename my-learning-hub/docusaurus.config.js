@@ -106,6 +106,11 @@ const config = {
             label: '🇬🇧 英檢練習', // 按鈕上顯示的文字
             position: 'left', // 放在左邊 (或是 right 放右邊)
           },
+          {
+            href: 'idiom.html', //成語
+            label: '成語大師', // 按鈕上顯示的文字
+            position: 'left', // 放在左邊 (或是 right 放右邊)
+          },
         ],
       },
       footer: {
